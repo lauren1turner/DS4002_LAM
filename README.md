@@ -18,4 +18,4 @@ In order to reproduce our results, find some top charts playlists from the citie
 ### EDA
 Use the general data to complete exploratory data analysis. This can be creating a word cloud, analyzing the most popular genres/artists, or creating different charts. See Script/4002_Project1_EDA.ipynb and Script/wordcloud_and_EDA.R for examples.
 ### Analysis: TF-IDF
-
+Utilized various functions within scikit-learn library this includes TfidfVectorizer along with English_stop_words which is a built-in list of English stop words that can be used for text processing tasks such as feature extraction. Stop words are common words (e.g., "the", "and", "is") and we included another list of custom stop words like lyrics and chorus that was appearing within our analysis. 
