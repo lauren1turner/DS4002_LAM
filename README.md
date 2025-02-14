@@ -9,7 +9,7 @@ This repository is for the Spring 2025 session of DS 4002 at The University of V
 For this project, we used Google Colab and Jupyter Notebook with Python and RScript. We got our data from Apple Music generated city charts, and we scraped the lyrics from the Genius API. The additional packages installed and utilized were: matplotlib, pandas, requests, BeautifulSoup, time, html, tm, wordcloud, RColorBrewer, sklearn, TfidfVectorizer, os, and re. The platform used was Windows. 
 
 ## Documentation Map
-![image](https://github.com/user-attachments/assets/d6acfdf1-a032-478f-a354-dec3fdf5e999)
+![image](https://github.com/user-attachments/assets/62a363dd-6b83-42c2-b828-fe518d11283d)
 
 
 ## Reproducing Results
