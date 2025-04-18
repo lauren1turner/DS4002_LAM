@@ -16,7 +16,7 @@ For this project, we used Google Colab and Jupyter Notebook with Python. We got 
 ### Gathering Data
 In order to reproduce our results, find approximately 84 images of the same dimension. Try to find a dataset of images of varying shapes and colors. Download the images and save them in a folder. These will be used to train the models.
 ### EDA
-[AROOSHA INSERT ABOUT EDA]
+In order to ensure that all of our photos are uniform and standardized for the model to work with, we processed all of the JPG files to be on a corrected grayscale and dimensions (1024x768). We also applied a grayscale algoritihim and analyzed the individual RGB channels to ensure that the grayscale was applied correctly and to ensure the photos are truly grayscale. 
 ### Analysis: TF-IDF
 Beta Model
 In order to reproduce the results for the Beta Model, first upload your images into the session storage (so they live under /content/) and install the required libraries: scikit-image, TensorFlow, etc.. Then copy in the helper functions: load_image, preprocess, and load all files matching *jpg*, then split into train/test arrays, and define the encoder–decoder model exactly as shown. Finally, call model.fit(...) to train and use the display_colorization function on held‑out examples to visualize your results.
