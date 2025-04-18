@@ -6,7 +6,7 @@ Madison Gallagher, Lauren Turner, Aroosha Solomon
 This repository is for the Spring 2025 session of DS 4002 at The University of Virginia's School of Data Science. It contains the materials used to train a model to colorize photos from black and white to color.
 
 ## Software and Platform
-For this project, we used Google Colab and Jupyter Notebook with Python. We got our data from Visual Attention Lab. Our dataset is 84 photos of dimension 1024x768 pixels. We built three models: a Beta model, Gamma model, and Pix2Pix model. The beta model used tensorflow and skimage.color. The gamma model used torch, torchvision, matplotlib, numpy, os, and Image. The Pix2PIx model used torch, torchivision and pillow.
+For this project, we used Google Colab and Jupyter Notebook with Python. We got our data from Visual Attention Lab. Our dataset is 84 photos of dimension 1024x768 pixels. We built three models: a Beta model, Gamma model, and Pix2Pix model. The beta model used tensorflow and skimage.color. The gamma model used torch, torchvision, matplotlib, numpy, os, sklearn, and Image. The Pix2PIx model used torch, torchivision and pillow.
 
 ## Documentation Map
 <img width="728" alt="image" src="https://github.com/user-attachments/assets/798d4b94-d6c5-45a4-a3f5-c3b29269d872" />
