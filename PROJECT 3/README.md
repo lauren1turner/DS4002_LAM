@@ -20,8 +20,7 @@ In order to ensure that all of our photos are uniform and standardized for the m
 ### Scripts 
 In order to reproduce results depending on the model used, the process varies slightly. For the Gamma model, you must clone the specific GitHub repository that contains all necessary files. In contrast, for the other two models, you need to manually upload the required photos into the Google Colab environment, as there is no repository associated with them. We tested the model using different parameters for each version, but maintaining consistency in the photos used across all models is essential for reliable comparisons. 
 
-
-### Analysis: Colorizing
+### running the scripts
 Beta Model
 In order to reproduce the results for the Beta Model, open the SCRIPTS folder and download the file called "BETA MODEL". Open the file in google collab. Then, upload your images into the session storage (so they live under /content/) and install the required libraries: scikit-image, TensorFlow, etc.. Then copy in the helper functions: load_image, preprocess, and load all files matching *jpg*, then split into train/test arrays, and define the encoder–decoder model exactly as shown. Finally, call model.fit(...) to train and use the display_colorization function on held‑out examples to visualize your results. These steps can be execute in sequence by selecting run all in Google Colab. The output colorized test images can be found in the /content/ section and can be saved to your computer or copied into a preferred location. 
 
